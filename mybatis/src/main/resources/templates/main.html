@@ -9,6 +9,7 @@
 			$(function(){
 				let content = $('h1').text();
 				console.log(content);
+				console.log('lbr other branch');
 			});
 		</script>
 	</head>
@@ -18,6 +19,7 @@
 	
 	<th:block layout:fragment="customContents">
 		<h1 th:text="${content}"></h1>	
+		<h1>other branch</h1>
 	</th:block>
 
 </html>
